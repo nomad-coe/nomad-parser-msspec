@@ -15,7 +15,7 @@ jobs:
         pip install .[dev,tests]
     - name: mypy
       run: |
-        python -m mypy --ignore-missing-imports --follow-imports=silent --no-strict-optional simulationdataschema tests
+        python -m mypy --ignore-missing-imports --follow-imports=silent --no-strict-optional parser tests
     - name: Test with pytest
       if: success() || failure()
       run: |

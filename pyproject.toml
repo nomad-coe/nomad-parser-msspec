@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.urls]
-homepage = "https://github.com/nomad-coe/nomad-parser-msspec-plugin"
+homepage = "https://github.com/nomad-coe/nomad-parser-plugin-msspec"
 
 [project.optional-dependencies]
 dev = [

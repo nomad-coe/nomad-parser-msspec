@@ -7,13 +7,13 @@ metadata:
   codeLabelStyle: M and S in capitals
   codeName: msspec
   codeUrl: MsSpec
-  parserDirName: dependencies/parsers/simulation/msspec/
-  parserGitUrl: https://github.com/nomad-coe/nomad-parser-abacus-plugin.git
+  parserDirName: dependencies/parsers/simulationparsers/msspec/
+  parserGitUrl: https://github.com/nomad-coe/nomad-parser-plugin-msspec.git
   parserSpecific: ''
   preamble: ''
   status: production
   tableOfFiles: ''
-name: parsers/simulation/msspec
-parser_class_name: simulationparser.msspec.parser.MsSpecParser
-python_package: simulationparser.msspec
-plugin_source_code_url: https://github.com/nomad-coe/nomad-parser-msspec-plugin
+name: parsers/msspec
+parser_class_name: simulationparsers.msspec.parser.parser.MsSpecParser
+python_package: simulationparsers.msspec
+plugin_source_code_url: https://github.com/nomad-coe/nomad-parser-plugin-msspec

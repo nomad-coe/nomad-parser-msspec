@@ -18,9 +18,9 @@
 #
 
 from nomad.metainfo import Environment
-from . import abacus
+from . import extended_metainfo
 
 m_env = Environment()
-m_env.m_add_sub_section(Environment.packages, abacus.m_package)  # type: ignore
+m_env.m_add_sub_section(Environment.packages, msspec.m_package)  # type: ignore
 
 from .parser import MsSpecParser

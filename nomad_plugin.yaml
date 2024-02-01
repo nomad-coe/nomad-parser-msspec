@@ -1,0 +1,19 @@
+code_category: Atomistic code
+code_homepage: https://msspec.cnrs.fr/intro.html
+code_name: MsSpec
+metadata:
+  codeCategory: Atomistic code
+  codeLabel: MsSpec
+  codeLabelStyle: M and S in capitals
+  codeName: msspec
+  codeUrl: MsSpec
+  parserDirName: dependencies/parsers/simulation/msspec/
+  parserGitUrl: https://github.com/nomad-coe/nomad-parser-abacus-plugin.git
+  parserSpecific: ''
+  preamble: ''
+  status: production
+  tableOfFiles: ''
+name: parsers/simulation/msspec
+parser_class_name: simulationparser.msspec.parser.MsSpecParser
+python_package: simulationparser.msspec
+plugin_source_code_url: https://github.com/nomad-coe/nomad-parser-msspec-plugin

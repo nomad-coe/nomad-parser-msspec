@@ -17,10 +17,9 @@ virtualenv -p `which python3` .pyenv
 source .pyenv/bin/activate
 ```
 
-Install NOMAD's pypi package and the parser-plugin in development mode:
+Install the parser-plugin in development mode (**this includes the NOMAD's pypi package already**):
 
 ```
-pip install nomad-lab
 pip install -e .
 ```
 
